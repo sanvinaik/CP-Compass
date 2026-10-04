@@ -256,7 +256,7 @@ function App() {
       <section className="hero">
 
         <p className="eyebrow">
-          COMPETITIVE PROGRAMMING INTELLIGENCE
+          COMPETITIVE PROGRAMMING ANALYZER
         </p>
 
         <h1>
@@ -269,7 +269,7 @@ function App() {
           Import your Codeforces history,
           reflect on how you solved each problem,
           and discover what is actually holding
-          you back.
+          you back. Saves you the hassle of updating your boring excel sheets.
         </p>
 
         <div className="search">
