@@ -1,0 +1,54 @@
+# ==========================================
+# CP Compass - Git Ignore
+# ==========================================
+
+# ---------- Secrets ----------
+.env
+.env.*
+backend/.env
+frontend/.env
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+backend/venv/
+backend/.venv/
+venv/
+.venv/
+
+# ---------- Local Database ----------
+*.db
+*.sqlite
+*.sqlite3
+backend/cp_compass.db
+
+# ---------- Node / React ----------
+node_modules/
+frontend/node_modules/
+
+dist/
+frontend/dist/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---------- Vite ----------
+.vite/
+
+# ---------- IDE ----------
+.vscode/
+.idea/
+
+# ---------- Operating System ----------
+.DS_Store
+Thumbs.db
+
+# ---------- Temporary Files ----------
+*.tmp
+*.temp
+*.log
