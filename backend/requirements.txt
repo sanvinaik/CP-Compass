@@ -1,0 +1,5 @@
+fastapi
+uvicorn[standard]
+requests
+huggingface_hub
+python-dotenv
